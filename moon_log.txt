@@ -1,0 +1,7 @@
+- name sven@i; moonlat 12.969331629915382; moonlng -7.638264027398643; score 869.6198487323434; timestamp 2018-05-26 17:49:08.615705; status received; version 2; 
+- name sven@i; moonlat 12.991891807616344; moonlng -7.395748800186613; score 909.6192266111315; timestamp 2018-05-26 17:49:17.271062; status received; version 2; 
+- name sven@i; moonlat 12.991891807616344; moonlng -7.395748800186613; score 909.791696167418; timestamp 2018-05-26 17:51:19.900009; status received; version 2; 
+- name sven@i; moonlat 12.991891807616344; moonlng -7.395748800186613; score 911.5985329151963; timestamp 2018-05-26 17:51:57.705251; status received; version 2; 
+- name sven@i; moonlat 12.969331629915382; moonlng -7.638264027398643; score 865.9320018757563; timestamp 2018-05-26 18:00:34.694026; status received; version 2; 
+- name sven@i; moonlat 12.980611718765864; moonlng -7.517006413792628; score 903.311580209017; timestamp 2018-05-26 18:00:45.959680; status received; version 2; 
+- name sven@i; moonlat 12.986251763191104; moonlng -7.456377606989621; score 915.6820790025279; timestamp 2018-05-26 18:00:53.311013; status received; version 2; 

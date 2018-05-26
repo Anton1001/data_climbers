@@ -37,6 +37,10 @@ for points in range(30):
         noise_dist.index += 1
         print(nice_try)
 
+    
 noise_dist = noise_dist.sort_index()        
 noise_dist.to_csv("Check_Distribution", sep = ';')
 
+noise_mean = noise_dist.groupby(['lng','lat']).mean()
+
+noise_distribution = noise_dist.join(noise_mean.set_index(['lng','lat']), on = ['lng','lat'])
