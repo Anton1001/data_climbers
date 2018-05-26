@@ -38,4 +38,4 @@ for points in range(30):
         noise_dist.append([latitude, longitude, nice_try['score']])
         print(nice_try)
         
-nice_try.to_csv("Check_Distribution", sep = ';')
+noise_dist.to_csv("Check_Distribution", sep = ';')
