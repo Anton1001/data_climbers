@@ -22,9 +22,7 @@ def make_req(name = user_name, lng = 0, lat = 0 ):
 
 
 columns_name = ['lat','lng','score']
-noise_dist = pd.DataFrame(data = None,columns = columns_name)
-
-noise_dist.head()
+noise_dist = pd.DataFrame(data = None, columns = columns_name)
 
 for points in range(30):
     
@@ -35,7 +33,10 @@ for points in range(30):
     
     for number_of_tests in range(10):
         nice_try = make_req(name = user_name, lng = longitude, lat = latitude)
-        noise_dist.append([latitude, longitude, nice_try['score']])
+        noise_dist.loc[-1] = [latitude, longitude, nice_try['score']]
+        noise_dist.index += 1
         print(nice_try)
-        
+
+noise_dist = noise_dist.sort_index()        
 noise_dist.to_csv("Check_Distribution", sep = ';')
+

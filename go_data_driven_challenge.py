@@ -53,7 +53,7 @@ def log_try(dictionary, file_object):
         
 #start the search:
 #log_boek.close()
-log_boek = open('C:\\Users\\Sven\\Desktop\\Repositories\\Go-data_challenge\\moon_log.txt', 'a')
+log_boek = open('C:\\Users\\Sven\\Desktop\\Repositories\\data_climbers\\moon_log.txt', 'a')
     
 largest = make_req(random_try = 'no', new_lat = 12.969331629915382, new_lng = -7.638264027398643)
 second = make_req(random_try = 'no', new_lat = 13.675675586964573, new_lng = -7.784998737038539)
